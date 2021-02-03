@@ -1,12 +1,7 @@
 /* general */
-
-body{
-  color: white
-}
-
 header{
   background-color: #2c3e50;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: white;
 }
 
@@ -25,7 +20,6 @@ header{
 .nav_format{
   color: white;
   text-align: right;
-  text-transform: uppercase;
   padding: 20px 0;
 }
 .nav_format ul{
@@ -50,7 +44,39 @@ header{
   padding: 30px 0;
   text-align: center;
 }
+/* end hero */
 
+/* sec portfolio */
+
+#portfolio{
+  text-align: center;
+}
+
+.portfolio_img{
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/* end sec portfolio */
+
+/* sec about */
+
+#about{
+  background-color: #53bd9d;
+  color: white;
+  text-align: center;
+}
+
+.sec_title{
+  padding-top: 20px;
+}
+
+.about_main_container{
+  max-width: 850px;
+  margin: auto;
+  border: 1px solid black;
+  text-align: left;
+}
 
 /* responsive */
 @media screen and (max-width: 767px){
