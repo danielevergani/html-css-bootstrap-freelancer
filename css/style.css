@@ -72,7 +72,7 @@ header{
   padding-top: 20px;
 }
 
-.about_main_container{
+.main_container{
   max-width: 850px;
   margin: auto;
   border: 1px solid black;
@@ -88,6 +88,26 @@ header{
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+/* end sec about */
+
+#contact_me{
+  text-align: center;
+}
+#contact_me ul{
+  padding-left: 0;
+}
+#contact_me li{
+  list-style: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black
+}
+
+#contact_me li:last-child{
+  list-style: none;
+  padding-bottom: 60px;
+  border-bottom: 1px solid black
 }
 
 /* responsive */
