@@ -65,6 +65,7 @@ header{
   background-color: #53bd9d;
   color: white;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .sec_title{
@@ -76,6 +77,17 @@ header{
   margin: auto;
   border: 1px solid black;
   text-align: left;
+}
+
+.button{
+  background-color: #53bd9d;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 10px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* responsive */
