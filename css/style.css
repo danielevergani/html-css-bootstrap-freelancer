@@ -57,4 +57,13 @@ header{
   .navigation_title{
     font-size: 20px;
   }
+
+  .main_title{
+    font-size: 32px;
+    padding: 0 5px;
+  }
+
+  .skills{
+    font-size: 14px;
+  }
 }
