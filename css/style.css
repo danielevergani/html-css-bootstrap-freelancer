@@ -27,6 +27,33 @@ header{
   padding: 20px 0;
 }
 
+.nav_format{
+  padding: 10px 0;
+
+}
+
+.nav_format li{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav_format li:hover{
+  background-color: #53bd9d;
+}
+
+.nav_format a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav_button{
+  display: none;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #53bd9d;
+}
+
 /* end navigation */
 
 /* hero */
@@ -140,5 +167,15 @@ i{
 
   .skills{
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .nav_button{
+    display: inline-block;
+  }
+
+  .nav_format_none{
+    display: none;
   }
 }
