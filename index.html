@@ -12,7 +12,7 @@
   <title>bootstrap-freelancer</title>
 </head>
 <body>
-  <header>
+  <header class="color_primary color_white">
     <!-- navigation -->
     <div class="navigation">
       <div class="container">
@@ -23,10 +23,10 @@
           <div class="col-xs-6">
             <nav class="nav_format">
               <!-- mettere list inline -->
-              <ul>
-                <li>portfolio</li>
-                <li>about</li>
-                <li>contact</li>
+              <ul class="list-inline text-right">
+                <li>...</li>
+                <li>...</li>
+                <li>...</li>
               </ul>
             </nav>
           </div>
@@ -35,12 +35,12 @@
     </div>
     <!-- end navigation -->
     <!-- hero -->
-    <div class="hero">
+    <div class="hero color_secondary">
       <div class="hero_box">
         <img src="https://via.placeholder.com/200x200" alt="foto">
-        <h1 class="main_title">start bootstrap</h1>
+        <h1>start bootstrap</h1>
         <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
-        <h4 class="skills">graphic artist - web designer - illuistrator</h4>
+        <h4>graphic artist - web designer - illuistrator</h4>
       </div>
     </div>
     <!-- end hero -->
@@ -50,8 +50,10 @@
   <main>
     <!-- portfolio -->
     <section id="portfolio">
-      <h2>PORTFOLIO</h2>
-      <p>Lorem ipsum dolor sit  elit.</p>
+      <div class="text-center">
+        <h2>PORTFOLIO</h2>
+        <p>Lorem ipsum dolor sit  elit.</p>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -78,8 +80,8 @@
     <!-- end portfolio -->
 
     <!-- about -->
-    <section id="about">
-      <div class="sec_title">
+    <section id="about" class="color_white color_secondary">
+      <div class="text-center">
         <h2>ABOUT</h2>
         <p>Lorem ipsum dolor sit  elit.</p>
       </div>
@@ -126,8 +128,8 @@
     <!-- end contact me -->
   </main>
 
-  <footer>
-    <div class="footer_sup">
+  <footer class="color_white text-center">
+    <div class="footer_sup color_primary">
       <div class="container">
         <!-- cambiare sm con md -->
         <div class="col-xs-12 col-sm-4">
@@ -136,7 +138,7 @@
         </div>
         <div class="col-xs-12 col-sm-4">
           <p>LOCATION LOCATION LOC</p>
-          <ul>
+          <ul class="list-inline">
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-google"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -150,7 +152,7 @@
       </div>
 
     </div>
-    <div class="footer_inf">
+    <div class="footer_inf color_primary_dark">
       <p>copyright ecc ecc ecc ecc ecc</p>
     </div>
 
