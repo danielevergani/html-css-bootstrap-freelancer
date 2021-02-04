@@ -88,7 +88,9 @@ header{
 
 .portfolio_img{
   width: 100%;
-  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
 }
 
 /* end sec portfolio */
@@ -142,10 +144,6 @@ header{
 /* end sec contact me */
 
 /* footer */
-
-i{
-  color: white;
-}
 
 /* footer sup */
 
