@@ -1,0 +1,11 @@
+.divisore div{
+  display: inline-block;
+  height: 2px;
+  width:60px;
+  background-color: black;
+  vertical-align: middle;
+}
+
+.divisore i{
+  vertical-align: middle;
+}

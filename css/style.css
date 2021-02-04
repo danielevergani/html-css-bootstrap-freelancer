@@ -1,10 +1,23 @@
 /* general */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 header{
   text-transform: uppercase;
 }
 
 h2{
   margin-top: 0;
+  font-weight: 700;
+}
+
+h1{
+  font-weight: 700;
+}
+
+h3{
+  font-weight: 700;
 }
 
 section{
@@ -49,6 +62,29 @@ section{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.divisore{
+  margin-bottom: 15px;
+}
+
+.divisore .linea{
+  display: inline-block;
+  height: 2px;
+  width:60px;
+  vertical-align: middle;
+}
+
+.linea_bianca{
+  background-color: white;
+}
+
+.linea_nera{
+  background-color: black;
+}
+
+.divisore i{
+  vertical-align: middle;
 }
 /* end general */
 
@@ -98,18 +134,6 @@ section{
 .hero_img{
   margin: auto;
   max-width: 250px;
-}
-
-.divisore hr{
-  display: inline-block;
-  width: 50px;
-  border: 2px solid;
-  vertical-align: middle;
-}
-
-.divisore i{
-  vertical-align: middle;
-  padding: 0 5px;
 }
 
 /* end hero */
@@ -183,6 +207,9 @@ section{
 
 /* footer sup */
 
+.footer_sup{
+  padding: 30px 0;
+}
 .footer_sup li{
   border: 1px solid white;
   border-radius: 50%;
