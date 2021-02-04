@@ -64,6 +64,24 @@ header{
   padding: 30px 0;
   text-align: center;
 }
+
+.hero_img{
+  margin: auto;
+  max-width: 250px;
+}
+
+.divisore hr{
+  display: inline-block;
+  width: 50px;
+  border: 2px solid;
+  vertical-align: middle;
+}
+
+.divisore i{
+  vertical-align: middle;
+  padding: 0 5px;
+}
+
 /* end hero */
 
 /* sec portfolio */
@@ -160,15 +178,6 @@ i{
     font-size: 20px;
   }
 
-  .main_title{
-    font-size: 32px;
-    padding: 0 5px;
-  }
-
-  .skills{
-    font-size: 14px;
-  }
-}
 
 @media screen and (max-width: 992px){
   .nav_button{
