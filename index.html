@@ -147,11 +147,15 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-xs-12">
-              <form action="">
-                <input type="text" class="form-control personal_form" placeholder="name">
-                <input type="email" class="form-control personal_form" placeholder="email address">
-                <input type="tel" class="form-control personal_form" placeholder="phone number">
-                <textarea class="form-control personal_textarea" rows="5" placeholder="message"></textarea>
+              <form>
+                <label class="sr-only" for="name">name</label>
+                <input id="name" type="text" class="form-control personal_form" placeholder="name">
+                <label class="sr-only" for="email">email</label>
+                <input id="email" type="email" class="form-control personal_form" placeholder="email address">
+                <label class="sr-only" for="tel">tel</label>
+                <input id="tel" type="tel" class="form-control personal_form" placeholder="phone number">
+                <label class="sr-only" for="text">text</label>
+                <textarea id="tel" class="form-control personal_textarea" rows="5" placeholder="message"></textarea>
                 <button type="submit" class="button">Submit</button>
               </form>
             </div>
