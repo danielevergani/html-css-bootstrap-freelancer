@@ -1,24 +1,6 @@
-.divisore i{
-  vertical-align: middle;
-  font-size: 24px;
-}
-
-.divisore::before{
-  content: "";
+a{
   display: inline-block;
-  height: 2px;
-  max-width: 100px;
-  width: 100%;
-  background: black;
-  vertical-align: middle;
-}
-
-.divisore::after{
-  content: "";
-  display: inline-block;
-  height: 2px;
-  max-width: 100px;
-  width: 100%;
-  background: black;
-  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
 }
