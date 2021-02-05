@@ -21,7 +21,7 @@ h3{
 }
 
 section{
-  padding-top: 60px;
+  padding-top: 70px;
   padding-bottom: 60px;
 }
 
@@ -69,13 +69,31 @@ section{
 }
 
 .divisore{
-  margin-bottom: 15px;
+  padding: 15px 0 20px 0;
 }
 
-.divisore .linea{
+.divisore i{
+  vertical-align: middle;
+  font-size: 24px;
+}
+
+.divisore::before{
+  content: "";
   display: inline-block;
   height: 2px;
-  width:60px;
+  max-width: 100px;
+  width: 100%;
+  background: currentcolor;
+  vertical-align: middle;
+}
+
+.divisore::after{
+  content: "";
+  display: inline-block;
+  height: 2px;
+  max-width: 100px;
+  width: 100%;
+  background: currentcolor;
   vertical-align: middle;
 }
 
@@ -87,15 +105,13 @@ section{
   background-color: black;
 }
 
-.divisore i{
-  vertical-align: middle;
-}
 /* end general */
 
 /* navigation */
 .navigation_title{
   margin: 0;
   padding: 20px 0;
+  white-space: nowrap;
 }
 
 .nav_format{
@@ -194,7 +210,7 @@ section{
 .personal_form{
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ccc;
   box-shadow: none;
   text-transform: uppercase;
   padding: 15px 0;
@@ -203,7 +219,7 @@ section{
 .personal_textarea{
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ccc;
   box-shadow: none;
   text-transform: uppercase;
   padding: 15px 0;

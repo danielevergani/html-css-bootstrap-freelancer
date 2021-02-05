@@ -1,11 +1,24 @@
-.divisore div{
+.divisore i{
+  vertical-align: middle;
+  font-size: 24px;
+}
+
+.divisore::before{
+  content: "";
   display: inline-block;
   height: 2px;
-  width:60px;
-  background-color: black;
+  max-width: 100px;
+  width: 100%;
+  background: black;
   vertical-align: middle;
 }
 
-.divisore i{
+.divisore::after{
+  content: "";
+  display: inline-block;
+  height: 2px;
+  max-width: 100px;
+  width: 100%;
+  background: black;
   vertical-align: middle;
 }
